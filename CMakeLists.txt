@@ -49,11 +49,12 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(RT-Thread Core/Inc Drivers/STM32L4xx_HAL_Driver/Inc Drivers/STM32L4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32L4xx/Include Drivers/CMSIS/Include Middlewares/Third_Party/RealThread_RTOS/include/ Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config Middlewares/Third_Party/RealThread_RTOS/finsh/ Middlewares/Third_Party/RealThread_RTOS/components/finsh /Middlewares/Third_Party/RealThread_RTOS/drv/MPL/mpl)
+include_directories(RT-Thread LVGL Core/Inc Drivers/STM32L4xx_HAL_Driver/Inc Drivers/STM32L4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32L4xx/Include Drivers/CMSIS/Include Middlewares/Third_Party/RealThread_RTOS/include/ Middlewares/Third_Party/RealThread_RTOS/bsp/_template/cubemx_config Middlewares/Third_Party/RealThread_RTOS/finsh/ Middlewares/Third_Party/RealThread_RTOS/components/finsh /Middlewares/Third_Party/RealThread_RTOS/drv/MPL/mpl)
+
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32L475xx)
 
-file(GLOB_RECURSE SOURCES "RT-Thread/*.*" "Core/*.*" "Middlewares/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES "RT-Thread/*.*" "Core/*.*" "Middlewares/*.*" "Drivers/*.*" "LVGL/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32L475VETX_FLASH.ld)
 

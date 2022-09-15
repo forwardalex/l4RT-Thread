@@ -114,7 +114,7 @@
 // </c>
 // <c1>Dynamic Heap Management
 //  <i>Dynamic Heap Management
-//#define RT_USING_HEAP
+#define RT_USING_HEAP
 // </c>
 // <c1>using small memory
 //  <i>using small memory
@@ -151,7 +151,7 @@
 // <c1>using device framework
 //  <i>using device framework
 #define RT_USING_DEVICE
-#define EMPL
+#define __RTTHREAD__
 // </c>
 // </h>
 
