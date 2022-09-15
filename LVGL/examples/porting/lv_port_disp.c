@@ -11,6 +11,7 @@
  *********************/
 #include "lv_port_disp.h"
 #include "../drv/lcd.h"
+#include "src/hal/lv_hal_disp.h"
 #include <stdbool.h>
 
 /*********************

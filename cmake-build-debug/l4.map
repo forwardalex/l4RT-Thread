@@ -2566,42 +2566,62 @@ Discarded input sections
  .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/others/snapshot/lv_example_snapshot_1.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/others/snapshot/lv_example_snapshot_1.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .debug_info    0x0000000000000000       0x25 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .debug_abbrev  0x0000000000000000       0x1b CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .text.disp_flush
+                0x0000000000000000       0x2a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .text.disp_init
+                0x0000000000000000        0x8 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .text.lv_port_disp_init
+                0x0000000000000000       0x48 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .text.disp_enable_update
+                0x0000000000000000        0xc CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .text.disp_disable_update
+                0x0000000000000000        0xc CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .bss.buf_1.1   0x0000000000000000     0x1900 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .bss.disp_drv.0
+                0x0000000000000000       0x4c CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .bss.draw_buf_dsc_1.2
+                0x0000000000000000       0x1c CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .data.disp_flush_enabled
+                0x0000000000000000        0x1 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_info    0x0000000000000000     0x1281 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_abbrev  0x0000000000000000      0x237 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_loc     0x0000000000000000       0x6c CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
  .debug_aranges
-                0x0000000000000000       0x18 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .debug_line    0x0000000000000000       0x1d CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .debug_str     0x0000000000000000      0x149 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
+                0x0000000000000000       0x40 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_ranges  0x0000000000000000       0x30 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_line    0x0000000000000000      0x468 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_str     0x0000000000000000      0xe0c CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .debug_frame   0x0000000000000000       0x7c CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
  .ARM.attributes
-                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .debug_info    0x0000000000000000       0x25 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .debug_abbrev  0x0000000000000000       0x1b CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
+                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .debug_info    0x0000000000000000       0x25 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .debug_abbrev  0x0000000000000000       0x1b CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
  .debug_aranges
-                0x0000000000000000       0x18 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .debug_line    0x0000000000000000       0x1d CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .debug_str     0x0000000000000000      0x147 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
+                0x0000000000000000       0x18 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .debug_line    0x0000000000000000       0x1d CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .debug_str     0x0000000000000000      0x13e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
  .ARM.attributes
-                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
- .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .debug_info    0x0000000000000000       0x25 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .debug_abbrev  0x0000000000000000       0x1b CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
+                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .debug_info    0x0000000000000000       0x25 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .debug_abbrev  0x0000000000000000       0x1b CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
  .debug_aranges
-                0x0000000000000000       0x18 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .debug_line    0x0000000000000000       0x1d CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .debug_str     0x0000000000000000      0x14a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
- .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
+                0x0000000000000000       0x18 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .debug_line    0x0000000000000000       0x1d CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .debug_str     0x0000000000000000      0x141 CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
  .ARM.attributes
-                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
+                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/scroll/lv_example_scroll_1.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/scroll/lv_example_scroll_1.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/LVGL/examples/scroll/lv_example_scroll_1.c.obj
@@ -12110,6 +12130,14 @@ Discarded input sections
                 0x0000000000000000       0xa4 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lcd.c.obj
  .text.LCD_Show_Image
                 0x0000000000000000       0x44 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lcd.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
+ .debug_line    0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
+ .debug_str     0x0000000000000000      0x14e CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
+ .comment       0x0000000000000000       0x4a CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x2e CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/myiic.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/myiic.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/myiic.c.obj
@@ -13213,9 +13241,9 @@ LOAD CMakeFiles/l4.elf.dir/LVGL/examples/others/msg/lv_example_msg_1.c.obj
 LOAD CMakeFiles/l4.elf.dir/LVGL/examples/others/msg/lv_example_msg_2.c.obj
 LOAD CMakeFiles/l4.elf.dir/LVGL/examples/others/msg/lv_example_msg_3.c.obj
 LOAD CMakeFiles/l4.elf.dir/LVGL/examples/others/snapshot/lv_example_snapshot_1.c.obj
-LOAD CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp_template.c.obj
-LOAD CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs_template.c.obj
-LOAD CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev_template.c.obj
+LOAD CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_disp.c.obj
+LOAD CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_fs.c.obj
+LOAD CMakeFiles/l4.elf.dir/LVGL/examples/porting/lv_port_indev.c.obj
 LOAD CMakeFiles/l4.elf.dir/LVGL/examples/scroll/lv_example_scroll_1.c.obj
 LOAD CMakeFiles/l4.elf.dir/LVGL/examples/scroll/lv_example_scroll_2.c.obj
 LOAD CMakeFiles/l4.elf.dir/LVGL/examples/scroll/lv_example_scroll_3.c.obj
@@ -13524,6 +13552,7 @@ LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/MPL/mllit
 LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/delay.c.obj
 LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/icm20608.c.obj
 LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lcd.c.obj
+LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/lvgl.c.obj
 LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/myiic.c.obj
 LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/drv/spi3.c.obj
 LOAD CMakeFiles/l4.elf.dir/Middlewares/Third_Party/RealThread_RTOS/libcpu/arm/cortex-m4/context_gcc.S.obj
